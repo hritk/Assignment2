@@ -51,11 +51,12 @@ public class List {
 			};
 			
 			System.out.println(games.subList(0, 2));
+		
+
+		   for(int j=0;j<5;j++)
+		{
 			games.remove(0);
-			games.remove(1);
-			games.remove(2);
-			games.remove(3);
-			games.remove(4);
+		}
 			
 			
 			
